@@ -1,8 +1,8 @@
 import React from "react";
-import CallFrequencyChart from "./CallFrequencyChart";
-import CallTimesChart from "./CallTimesChart";
-import CallerChart from "./CallerChart";
-import TerminationChart from "./TerminationChart";
+import CallFrequencyChart from "./charts/CallFrequencyChart";
+import CallTimesChart from "./charts/CallTimesChart";
+import CallerChart from "./charts/CallerChart";
+import TerminationChart from "./charts/TerminationChart";
 import { Grid, Column } from "@twilio-paste/core/grid";
 
 export default ({ data }) => {

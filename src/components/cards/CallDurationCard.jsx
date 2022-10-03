@@ -1,7 +1,7 @@
 import React from "react";
 import { Text } from "@twilio-paste/core/text";
 import { Card } from "@twilio-paste/core/card";
-import { getCallLength } from "../utils";
+import { getCallLength } from "../../utils";
 
 function getAvgCallLength(data) {
   let length = 0;

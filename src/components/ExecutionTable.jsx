@@ -1,7 +1,7 @@
 import React from "react";
 import DataTable, { TableColumn } from "react-data-table-component";
 import { Card } from "@twilio-paste/core/card";
-import ExecutionTableRowContent from "./ExecutionTableRowContent";
+import ExecutionTableRowContent from "./table/ExecutionTableRowContent";
 import { ExecutionTableRow } from "../utils";
 
 export default ({ data }) => {

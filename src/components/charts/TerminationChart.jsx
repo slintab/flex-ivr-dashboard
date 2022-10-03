@@ -1,7 +1,7 @@
 import React from "react";
 import * as _ from "lodash";
 import { Heading } from "@twilio-paste/core/heading";
-import { getTerminationStep } from "../utils";
+import { getTerminationStep } from "../../utils";
 import { Card } from "@twilio-paste/core/card";
 import {
   BarChart,
