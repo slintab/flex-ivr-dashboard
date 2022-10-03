@@ -1,0 +1,25 @@
+{
+  "name": "flex-ivr-dashboard",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "postinstall": "flex-plugin pre-script-check"
+  },
+  "dependencies": {
+    "@twilio/flex-plugin-scripts": "5.2.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "prop-types": "^15.7.2",
+    "@twilio-paste/core": "^15.3.0",
+    "@twilio-paste/icons": "^9.2.0",
+    "dayjs": "^1.11.5",
+    "lodash": "^4.17.21",
+    "react-data-table-component": "^7.5.3",
+    "recharts": "^2.1.14",
+    "styled-components": "^5.3.5"
+  },
+  "devDependencies": {
+    "@twilio/flex-ui": "2.0.0-beta.1",
+    "react-test-renderer": "17.0.2"
+  }
+}
