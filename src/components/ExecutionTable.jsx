@@ -44,6 +44,7 @@ export default ({ data }) => {
       <DataTable
         columns={columns}
         data={getTableRows(data)}
+        pagination
         expandableRows
         expandableRowsComponent={ExecutionTableRowContent}
       />
